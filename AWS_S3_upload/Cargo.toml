@@ -1,0 +1,10 @@
+[package]
+name = "AWS_S3_upload"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aws-config = "0.54.1"
+aws-sdk-s3 = "0.24.0"
+tokio = { version = "1.17.0", features = ["full"] }
+thiserror = "1.0.69"
