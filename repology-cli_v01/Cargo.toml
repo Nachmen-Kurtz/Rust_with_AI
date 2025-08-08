@@ -1,0 +1,13 @@
+[package]
+name = "repology-cli_v01"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+clap = { version = "4.0", features = ["derive"] }
+prettytable-rs = "0.10"
+clap_complete = "4.4"
+atty = "0.2"
